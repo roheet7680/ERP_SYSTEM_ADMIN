@@ -1,0 +1,11 @@
+.common-container{
+  display: flex;
+  max-height: 100vh;
+}
+
+@media screen and (max-width : 766px) {
+  .common-container{
+    display: flex;
+    flex-direction: column;
+}
+}
